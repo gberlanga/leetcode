@@ -14,3 +14,15 @@ public:
         return true;
     }
 };
+
+
+/*
+BETTER SOLUTION
+
+class Solution {
+public:
+    bool canWinNim(int n) {
+        return n % 4 != 0;
+    }
+};
+*/
